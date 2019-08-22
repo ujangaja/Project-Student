@@ -1,0 +1,221 @@
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption {
+    display: block;
+}
+
+body {
+    color: #666666;
+    background-color: #f9f8f6;
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+}
+
+.wrapper {
+    width: 100%;
+    /* margin: 20px auto 20px auto; */
+    /* border: 2px solid #000000; */
+    background-image: url("images/dark-wood.jpg");
+    /* background-color: #ffffff; */
+}
+
+h1 {
+    text-indent: -9999px;
+    width: 940px;
+    height: 130px;
+    margin: 0px;
+}
+
+/* navbar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav,
+footer {
+    clear: both;
+    color: #ffffff;
+    background-color: #108a2e;
+    height: 50px;
+
+}
+
+nav ul {
+    margin: 0px;
+    padding: 13px 0px 5px 30px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav li a {
+    color: #ffffff;
+}
+
+nav li a:hover,
+nav li a.current {
+    color: #000000;
+}
+
+/* navbar */
+article .kiri {
+    width: 50%;
+    height: 100px;
+    background-color: #FF0;
+    float: left;
+}
+
+article .kanan {
+    width: 50%;
+    height: 100px;
+    background-color: #0C0;
+    float: right;
+}
+
+section.courses {
+    float: left;
+    width: 850px;
+    /* border-right: 1px solid #eeeeee; */
+    margin-top: -80px;
+}
+
+
+
+article {
+    /* clear: both; */
+    overflow: auto;
+    width: 100%;
+}
+
+
+hgroup {
+    margin-top: 40px;
+}
+
+
+
+figure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+}
+
+/* Tentang */
+
+.keterangan h2 {
+    font-size: 70px;
+}
+
+/* akhir tentang */
+
+
+
+/* Kontak */
+#maps {
+    width: 700px;
+    height: 500px;
+    margin: 75px;
+    border-color: #0C0;
+}
+
+/* akhir kontak */
+
+
+figure,
+p {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+figcaption {
+    font-size: 90%;
+    text-align: left;
+}
+
+aside {
+    margin-top: -90px;
+    width: 230px;
+    float: left;
+    padding: 0px 0px 0px 20px;
+}
+
+aside .contact-details {
+
+    margin-top: 50px;
+}
+
+aside .contact-details,
+h1 {
+    font-size: 20px;
+    text-align: center;
+    color: #108a2e;
+}
+
+aside section a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+aside section a:hover {
+    color: #ffffff;
+    background-color: #108a2e;
+}
+
+a {
+    color: #a17a24;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+    color: #F5FFFA;
+}
+
+h2 {
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0px 20px 0px 10px;
+    padding: 0px;
+    color: #F5FFFA;
+
+}
+
+h3,
+    {
+    margin: 0px 0px 10px 0px;
+    color: #de6581;
+}
+
+aside h2 {
+    padding: 30px 0px 10px 0px;
+    color: #92670b;
+}
+
+footer {
+    font-size: 80%;
+    padding: 25px 0px 0px 10px;
+    text-align: center;
+    position: relative;
+    bottom: top;
+}
