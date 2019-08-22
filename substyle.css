@@ -1,3 +1,13 @@
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption, body, .ayam {
+    display: block;
+}
 body {
     color: goldenrod;    
     background-color: #f9f8f6;	    
