@@ -1,0 +1,41 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+html {
+    background-color: paleturquoise;
+}
+
+h1 {
+    background-color: rgb(4, 62, 77);
+    font-family: raleway;
+    font-weight: 800;
+    font-style: oblique;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 25px;
+    margin: 0%;
+    border-bottom: white solid 10px;
+    color: gold;
+}
+
+form {
+    padding: 20px;
+    background-color: aqua;
+    width: 50%;
+    margin: auto;
+    text-align: center;    
+    border-radius: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+}
+
+form input[type="text"]  {
+    width: 90%;
+    text-align: center
+}
+
+form input[type="radio"] {
+    padding: 10px;
+}

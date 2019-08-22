@@ -1,0 +1,155 @@
+body {
+    color: goldenrod;    
+    background-color: #f9f8f6;	    
+	background-position: center;
+	font-family: Georgia, Times, serif;
+    margin: 10px;}
+body h1  {
+    background-color: rgb(4, 62, 77);
+    font-family: raleway;
+    font-weight: 800;
+    font-style: oblique;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 25px;
+    margin: 0%;
+    border-bottom: white solid 10px;
+}
+
+.tengah {
+    width: 99%;
+    border: black solid 2px;    
+    padding: 0px 0px 0px 10px;    
+}
+
+
+.ayam {
+    background-color: hsla(224, 41%, 56%, 0.534);    
+    width: 50%;    
+    border: 5px rgba(22, 22, 20, 0.89) double;    
+    color: aliceblue;
+    padding: 0px 20px;    
+    margin: 10px 0px;   
+    border-radius: 10px;     
+}   
+
+.keterangan {
+    float: right;
+    width: 40%;
+    
+}
+.keterangan p {
+    border: #f9f8f6 2px solid;
+    text-align: left;
+}
+.ayam h2 {
+    text-align: center;
+    padding-top: 0px;
+}
+
+p {
+    text-align: justify;  
+    border: white solid 2px;
+    padding: 5px;  
+}
+
+.image {
+    background: #f9f8f6;
+    width: 50%; 
+    border: white solid 2px;   
+
+}
+.image img {
+    height: 100%;       
+    width: 100%;
+    border-radius: 25px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+a:hover {
+    color: gold;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: palevioletred;
+}
+.list {    
+    color: white;    
+    background-color: blanchedalmond; 
+    width: 39%;  
+    padding: 25px;
+    padding-left: 0px;
+    float: right;
+    margin-right : 15px;
+    margin-left : 15px; 
+    margin-top : 15px;  
+    border: black 2px solid;  
+}
+.list ul {
+    list-style: none;
+}
+
+.list li {
+    padding : 7px 0px;;
+    border-bottom: 2px dotted salmon;
+}
+
+form {
+    text-align: center;
+    padding: 10px;
+}
+
+.saran {
+    padding-left: 40px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    color: black;
+}
+
+.saran .saran-grup {
+    padding-bottom: 10px;
+}
+
+.saran label {
+    display: block;
+    
+}
+
+.saran input {
+    width: 50%;
+    padding: 6px;
+}
+
+.saran input[type="submit"] {
+    width: 20%;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+
+.goreng {
+    background-color:orange;
+}
+
+.geprek {
+    background-color:steelblue;
+}
+
+input[type="submit"] {
+    color: black;
+    background-color: white;
+}
+
+input[type="submit"]:hover {
+    color: white;
+    background-color:black;
+}
