@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Formulir Pemesanan</title>
+        <link href="formstyle.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div>
+            <h1>Formilir Pemesanan</h1>
+            <form action="terimakasih.html" method="GET">
+                <section class="pw">
+                    <label for="first_name">Nama Depan</label><br>
+                    <input type="text" name="first_name" ><br>                    
+                    <label for="last_name">Nama Akhir</label><br>
+                    <input type="text" name="last_name" >                   
+                </section>
+                <section class="Kurir"><br> 
+                    <span>Pilih Kurir:</span><br>                    
+                    <input type="radio" name="gojek" value="gojek">
+                    <label for="gojek">Gofood</label>
+                    <input type="radio" name="grab" value="grab">
+                    <label for="grab">Grabfood</label>
+                    <input type="radio"name="Cod" value="Cod">
+                    <label for="Cod">Cod</label>
+                </section>
+                <section class="sambel"><br>
+                    <span>Pilih Sambel:</span><br>
+                    <select name="Nationality" id="Nationality">
+                        <option value="Matah">Sambel Matah</option>
+                        <option value="Kecap">Sambel Kecap</option>
+                        <option value="Teri">Sambel Teri</option>
+                        <option value="asem">Sambel Asam Manis</option>
+                        <option value="Kacang">Sambel Kacang</option>
+                    </select>
+                </section>
+                <section class="tambahan"><br>
+                    <span>Pilih Tambahan:</span><br>
+                    <input type="checkbox" name="Nasi" id="indonesia">
+                    <label for="bahasa">Nasi</label>
+                    <input type="checkbox" name="Sayur" id="english">
+                    <label for="english">Sayur</label>
+                    <input type="checkbox" name="Tempe" id="Other">
+                    <label for="Otjer">Tempe</label>
+                    <input type="checkbox" name="Telor" id="Other">
+                    <label for="Otjer">Telor</label>
+                    <input type="checkbox" name="Tahu" id="Other">
+                    <label for="Otjer">Tahu</label>                  
+                </section>
+                <section><br>
+                    <label for="amount">Masukkan jumlah pesanan</label><br>
+                    <input type="number" name="amount" id="amount" step="1">    
+                </section>
+                <section class="alamat"><br>
+                    <span>Masukan Alamat:</span><br>
+                    <textarea name="alamat" id="bio" cols="30" rows="10"></textarea><br>
+                    <input type="submit" id="submition" value="Pesan">                    
+                </section>
+            </form>
+        </div>
+    </body>
+</html>
