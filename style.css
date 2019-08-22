@@ -70,7 +70,7 @@ nav li a.current {
 }
 
 /* navbar */
-article .kiri {
+/* article .kiri {
     width: 50%;
     height: 100px;
     background-color: #FF0;
@@ -82,7 +82,7 @@ article .kanan {
     height: 100px;
     background-color: #0C0;
     float: right;
-}
+} */
 
 section.courses {
     float: left;
@@ -115,6 +115,26 @@ figure {
     border: 1px solid #eeeeee;
 }
 
+/* Daftar Makanan */
+#menu figure {
+    float: left;
+    width: 250px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+}
+
+section.sub {
+    /* float: left; */
+    width: 100%px;
+    /* background-color: #0C0; */
+    /* border-right: 1px solid #eeeeee; */
+    margin-top: -80px;
+    padding-left: 35px;
+}
+
+/* Akhir daftar makanan */
 /* Tentang */
 
 .keterangan h2 {
