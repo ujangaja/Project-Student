@@ -26,20 +26,13 @@ body h1  {
     border-bottom: white solid 10px;
 }
 
-.tengah {
-    width: 99%;
-    border: black solid 2px;    
-    padding: 0px 0px 0px 10px;    
-}
-
-
 .ayam {
     background-color: hsla(224, 41%, 56%, 0.534);    
     width: 50%;    
     border: 5px rgba(22, 22, 20, 0.89) double;    
     color: aliceblue;
     padding: 0px 20px;    
-    margin: 10px 0px;   
+    margin: 10px 5px 0px;   
     border-radius: 10px;     
 }   
 
@@ -163,3 +156,9 @@ input[type="submit"]:hover {
     color: white;
     background-color:black;
 }
+
+.tengah {
+	width: 940px;
+	margin: 0px auto 20px auto;
+	border: 2px solid #000000;
+	background-color: #ffffff;}
